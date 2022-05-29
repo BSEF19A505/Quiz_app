@@ -35,55 +35,59 @@ public class MainActivity1 extends AppCompatActivity {
             q[i]=new Question();
             q[i].options=new String[2];
         }
-        q[0].question="In which HTML tag do we put the JS code?";
-        q[0].insertOption(0,"link tag");
-        q[0].insertOption(1,"js tag");
-        q[0].correctOption="script tag";
 
-        q[1].question="Which object is in the top of the root of JavaScript?";
-        q[1].insertOption(0,"document");
-        q[1].insertOption(1,"URL");
-        q[1].correctOption="window";
 
-        q[2].question="Which event do you use to perform something after the page has finished loading?";
-        q[2].insertOption(0,"onfinished");
-        q[2].insertOption(1,"oncomplete");
-        q[2].correctOption="onload";
+        q[0].question="The following statement A ? B : C is equivalent to?";
+        q[0].insertOption(0,"if (A) (B:C)");
+        q[0].insertOption(1,"if(A) (B) else (C)");
+        q[0].correctOption="if(A)(B) else (C)";
 
-        q[3].question="DOM is ??";
-        q[3].insertOption(0,"dedicated for JS");
-        q[3].insertOption(1,"a template engine");
-        q[3].correctOption="describes the structure of HTML or XML document";
+        q[1].question="When we can't trigger JS from an event handler?";
+        q[1].insertOption(0,"when it runs rather than on the web");
+        q[1].insertOption(1,"when another event is still being processed");
+        q[1].correctOption="when JsvaScript is disabled";
 
-        q[4].question="Which of the following is not a property of window object?";
-        q[4].insertOption(0,"navigator");
-        q[4].insertOption(1,"history");
-        q[4].correctOption="menu";
+        q[2].question="Which function does the reverse of split?";
+        q[2].insertOption(0,"concat");
+        q[2].insertOption(1,"bind");
+        q[2].correctOption="join";
 
-        q[5].question="Which of the following is not a valid mouse event?";
-        q[5].insertOption(0,"onmouseover");
-        q[5].insertOption(1,"onmousemove");
-        q[5].correctOption="onmouseScroller";
+        q[3].question="In which HTML tag do we put the JS code?";
+        q[3].insertOption(0,"link tag");
+        q[3].insertOption(1,"js tag");
+        q[3].correctOption="script tag";
 
-        q[6].question="Which one is not a valid function call?";
-        q[6].insertOption(0,"var x = display()");
-        q[6].insertOption(1,"display()");
-        q[6].correctOption="display";
+        q[4].question="Which one is not a valid function call?";
+        q[4].insertOption(0,"var x = display()");
+        q[4].insertOption(1,"display()");
+        q[4].correctOption="display";
 
-        q[7].question="Which function does the reverse of split?";
-        q[7].insertOption(0,"concat");
-        q[7].insertOption(1,"bind");
-        q[7].correctOption="join";
+        q[5].question="Which object is in the top of the root of JavaScript?";
+        q[5].insertOption(0,"document");
+        q[5].insertOption(1,"URL");
+        q[5].correctOption="window";
 
-        q[8].question="When we can't trigger JS from an event handler?";
-        q[8].insertOption(0,"when it runs rather than on the web");
-        q[8].insertOption(1,"when another event is still being processed");
-        q[8].correctOption="when JsvaScript is disabled";
+        q[6].question="DOM is ??";
+        q[6].insertOption(0,"dedicated for JS");
+        q[6].insertOption(1,"a template engine");
+        q[6].correctOption="describes the structure of HTML or XML document";
 
-        q[9].question="The following statement A ? B : C is equivalent to?";
-        q[9].insertOption(0,"if (A) (B:C)");
-        q[9].insertOption(1,"if(A) (B) else (C)");
-        q[9].correctOption="if(A)(B) else (C)";
+        q[7].question="Which event do you use to perform something after the page has finished loading?";
+        q[7].insertOption(0,"onfinished");
+        q[7].insertOption(1,"oncomplete");
+        q[7].correctOption="onload";
+
+
+        q[8].question="Which of the following is not a property of window object?";
+        q[8].insertOption(0,"navigator");
+        q[8].insertOption(1,"history");
+        q[8].correctOption="menu";
+
+        q[9].question="Which of the following is not a valid mouse event?";
+        q[9].insertOption(0,"onmouseover");
+        q[9].insertOption(1,"onmousemove");
+        q[9].correctOption="onmouseScroller";
+
 
         txtView=findViewById(R.id.textView);
         radiogrp=findViewById(R.id.radiogroup);
